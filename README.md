@@ -20,4 +20,12 @@ loin asennus.sls tiedoston hakemistoon /srv/salt
 #### Automaattiset päivitykset
 Automaattisia päivityksiä varten, loin tilana Cronjobin, ja konfiguroin sen päivittämään ohjelmistot kerran viikossa
 
+    update:
+      cron.present:
+        - name: 'apt-update && apt upgrade -y'
+        - user: root
+        - minute: 59
+        - hour: 23
+        - dayweek: 0
+
 
