@@ -1,5 +1,5 @@
 # Automaattisesti päivittyvät ohjelmat
-Projektin tarkoituksena on luoda salt tila, jolla asennetaan ohjelmat LibreOffice, Mozilla Firefox, ja VLC minioneille. Lisänä Cronjob, jolla ajoitetaan viikottainen päivitys, jotta kaikki järjestelmään asennetut ohjelmistot pysyvät ajan tasalla
+Projektin tarkoituksena on luoda salt tila, jolla asennetaan ohjelmat LibreOffice, Mozilla Firefox, ja VLC minioneille. Lisänä Cronjob, jolla ajoitetaan viikottainen päivitys, jotta kaikki järjestelmään asennetut ohjelmistot pysyvät ajan tasalla. Ideana on simuloida uusien palvelinten nopeaa konfigurointia esim. toimistokäyttöön.
 
 Käytän tässä projektissa valmiiksi luotuja ja konfiguroituja virtuaalikoneita: tmaster, t001 ja t002
 ## Asennus
