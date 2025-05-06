@@ -39,4 +39,17 @@ Viimeisenä lisäsin vielä top.sls tilan, jotta voin ajaa molemmat tilat yhdell
 
 #### Suoritus
 
-Viimeisenä kokeilen toimiiko ohjelmistojen asennus ja automaattipäivitysten lisääminen ajamalla top.sls tilan
+Viimeisenä kokeilen toimiiko ohjelmistojen asennus ja automaattipäivitysten lisääminen ajamalla top.sls tilan.
+
+        sudo salt '*' state.apply
+
+#### Lopputulos
+
+Lopputulos on onnistunut lukuun ottamatta sitä, että firefoxille ei löytynyt asennustiedostoa. Muuten kaikkien tilojen ajaminen onnistui.
+
+![image](https://github.com/user-attachments/assets/b5f8b3d4-b598-4c4b-a501-ae70c209aad4)
+
+## Lähteet
+
+Tehtäväsivu: https://terokarvinen.com/palvelinten-hallinta/
+Karvinen 2023: https://terokarvinen.com/2023/salt-vagrant/#infra-as-code---your-wishes-as-a-text-file
